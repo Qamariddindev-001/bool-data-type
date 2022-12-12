@@ -6,5 +6,12 @@
     Returns:
         bool
     */
+bool func(
+  int a,
+) {
+  return a < 0;
+}
 
-void main() {}
+void main() {
+  print(func(55));
+}
