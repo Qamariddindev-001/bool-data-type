@@ -9,9 +9,9 @@
 bool func(
   int a,
 ) {
-  return a <= 0;
+  return a >= 0;
 }
 
 void main() {
-  print(func(55));
+  print(func(9));
 }
