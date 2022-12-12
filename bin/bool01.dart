@@ -7,5 +7,10 @@
   Returns:
       bool
   */
+func(int a, int b) {
+  return a == b;
+}
 
-void main() {}
+void main() {
+  print(func(1, 1));
+}
