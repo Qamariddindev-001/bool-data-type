@@ -6,5 +6,10 @@
     Returns:
         bool
     */
+func(int b) {
+  return b < 0;
+}
 
-void main() {}
+void main() {
+  print(func(-3));
+}
